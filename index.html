@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registeration Page</title>
+    <link rel="stylesheet" href="/Style/index.css" />
+  </head>
+  <body background="Image/background.png">
+    <form class="registeration-form">
+      <h1>Register</h1>
+
+      <label for="fname">First Name</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="First Name"
+        required
+      />
+
+      <label for="lname">Last Name</label>
+      <input type="text" name="lname" id="lname" placeholder="Last Name" />
+
+      <label for="age">Age</label>
+      <select name="age" id="age">
+        <option value="none" selected disabled hidden>Select Age</option>
+        <option value="below20">Below 20</option>
+        <option value="21-40">21-40</option>
+        <option value="41-60">41-60</option>
+        <option value="above61">Above 61</option>
+      </select>
+      <p>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male" value="Male" />Male
+        <input type="radio" name="gender" id="female" value="Female" />Female
+      </p>
+      <label for="dob">Date of Birth</label>
+      <input type="date" name="dob" id="dob" />
+      <p>
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+        <a href="/login.html">Login</a>
+      </p>
+    </form>
+  </body>
+</html>
