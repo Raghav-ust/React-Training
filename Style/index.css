@@ -11,6 +11,11 @@ h1{
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background: url(/Image/background.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 input{
